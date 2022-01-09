@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--font awesome link-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!--css link-->
+    <link rel="stylesheet" href="/css/menuslider.css" />
+    <title>My Landing Page</title>
+  </head>
+  <body>
+    <!--Navbar-->
+    <nav>
+      <div class="logo">
+        <img src="https://randomuser.me/api/portraits/men/76.jpg" alt="user" />
+      </div>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Portfolio</a></li>
+      </ul>
+    </nav>
+    <!--Toggle Bar-->
+    <header>
+      <button id="toggle" class="toggle">
+        <i class="fa fa-bars fa-2x"></i>
+      </button>
+      <h1>Visay's Landing Page</h1>
+
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut minima rem
+        ab similique harum mollitia, inventore, ratione, asperiores ducimus quas
+        temporibus magni dolorum doloribus porro sint nisi doloremque nam ipsam.
+      </p>
+      <button class="cta-btn" id="open">Sign In</button>
+    </header>
+    <div class="container">
+      <h2>What is this Landing page about?</h2>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque nemo
+        iure quibusdam voluptates architecto magnam nam omnis maxime molestiae
+        inventore, voluptate, eum nobis. Quis fugit dolorum adipisci ut deleniti
+        dolorem.
+      </p>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione,
+        ducimus unde aliquam minima pariatur nostrum modi? Fugiat illo officiis
+        dolorum, pariatur adipisci ab vitae sapiente aut tempore nulla quidem
+        eaque.
+      </p>
+      <h2>Tell me more</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
+        eveniet magnam quasi nihil sapiente, dolore fugit unde doloremque
+        inventore alias sed saepe repellendus, soluta minus facilis
+        exercitationem. Eaque, sapiente nulla.
+      </p>
+      <h2>Benefits</h2>
+      <ul>
+        <li>Lifetime Access</li>
+        <li>30 Day Money Back</li>
+        <li>Customer Support</li>
+      </ul>
+    </div>
+    <!--Modal-->
+    <div class="modal-container" id="modal">
+      <div class="modal">
+        <button class="close-btn" id="close">
+          <i class="fa fa-times"></i>
+        </button>
+        <div class="modal-header">
+          <h3>Sign Up</h3>
+        </div>
+        <!--Modal Form-->
+        <div class="modal-content">
+          <p>Register with us to get offers, support and more</p>
+          <form class="modal-form">
+            <div>
+              <label for="name">Name</label>
+              <input type="text" id="name" placeholder="Enter Name" />
+            </div>
+            <div>
+              <label for="name">Email</label>
+              <input type="email" id="email" placeholder="Enter Email" />
+            </div>
+            <div>
+              <label for="name">Password</label>
+              <input
+                type="password"
+                id="password"
+                placeholder="Enter Password"
+              />
+            </div>
+            <div>
+              <label for="name">Confirm Password</label>
+              <input
+                type="password"
+                id="password2"
+                placeholder="Confirm Password"
+              />
+            </div>
+            <!--Modal Submit Button-->
+            <input type="submit" value="Submit" class="submit-btn" />
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!--javascript link-->
+    <script src="/js/menuslider.js"></script>
+  </body>
+</html>
