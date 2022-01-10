@@ -13,6 +13,7 @@
   margin: 0px;
   box-sizing: border-box;
 }
+/* Body */
 body {
   font-family: "Montserrat", sans-serif;
   line-height: 1.5rem;
@@ -21,6 +22,7 @@ body {
 body.show-nav {
   transform: translate(200px);
 }
+/* Vertical Navigation */
 nav {
   background-color: var(--primary-color);
   border-right: 2px solid rgba(200, 200, 200, 0.1);
@@ -61,7 +63,7 @@ nav ul li a {
 nav ul li a:hover {
   text-decoration: underline;
 }
-
+/* Header Section */
 header {
   background-color: var(--secondary-color);
   color: #fff;
@@ -77,6 +79,7 @@ header {
 header p {
   margin: 30px 0;
 }
+/* Button from Input */
 button,
 input[type="submit"] {
   background-color: var(--third-color);
@@ -90,6 +93,7 @@ input[type="submit"] {
 button:focus {
   outline: none;
 }
+/* Toggle Navbar Button */
 .toggle {
   background-color: var(--primary-color);
   position: absolute;
@@ -100,8 +104,9 @@ button:focus {
   padding: 12px 30px;
   font-size: 20px;
 }
+/* Mid-body Section */
 .container {
-  padding: 15px;
+  padding: 25px;
   margin: 0 auto;
   max-width: 100%;
   width: 800px;
